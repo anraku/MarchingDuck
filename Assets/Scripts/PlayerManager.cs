@@ -31,7 +31,7 @@ public class PlayerManager : MonoBehaviour
     {
         Walk();
         // when tap display 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)  && !isJump())
         {
             Jump();
         }
@@ -41,7 +41,7 @@ public class PlayerManager : MonoBehaviour
         moveDirection.y -= gravity;
     }
 
-    private bool IsStun()
+    private bool IsStun() 
     {
         return Speed <= 0;
     }
@@ -57,7 +57,12 @@ public class PlayerManager : MonoBehaviour
         // sound jump
         soundEffectManager.MakeJumpSound();
     }
-     
+
+    bool isJump()
+    {
+        return moveDirection.y > 0;
+    }
+
     void Walk()
     {
         // animation

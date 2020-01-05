@@ -1,12 +1,11 @@
 ﻿<Properties StartupConfiguration="{F2195CAD-3E7B-0BB6-A6CE-5B08A1E5A02B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SoundEffectManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerManager.cs" Line="52" Column="20" />
-      <File FileName="Assets/Scripts/Test.cs" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" Line="23" Column="16" />
       <File FileName="Assets/Scripts/GenerateGround.cs" Line="31" Column="1" />
-      <File FileName="Assets/Scripts/GenerateManager.cs" Line="38" Column="81" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="38" Column="6" />
-      <File FileName="Assets/Scripts/SoundEffectManager.cs" Line="16" Column="9" />
+      <File FileName="Assets/Scripts/GenerateManager.cs" Line="41" Column="6" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="24" Column="13" />
+      <File FileName="Assets/Scripts/SoundEffectManager.cs" Line="25" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +13,7 @@
           <Node name="Marching Duck" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="SoundEffectManager.cs" selected="True" />
+                <Node name="PlayerManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,9 +25,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f7006586-7249-4f8f-96ad-702b2da557eb" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/daimori/play/Unity/Marching Duck/Assets/Scripts/PlayerManager.cs" relfile="Assets/Scripts/PlayerManager.cs" line="76" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
